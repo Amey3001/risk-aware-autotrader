@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# secrets — never commit real keys
+.env
+
+# large/generated data — regenerate via notebooks/scripts, don't version
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+# third-party material — not mine to publish
+Papers/
+MA981-7-FY Dissertation Handbook.pdf
+
+# local working copies and drafts
+backup_*/
+docs/
+.claude/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

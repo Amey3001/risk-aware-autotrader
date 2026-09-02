@@ -1,36 +1,16 @@
-# Core data science
 numpy
 pandas
 matplotlib
 seaborn
 scipy
 scikit-learn
-
-# Market data (no API key needed)
 yfinance
-
-# Deep learning (CPU build — install via:
-#   pip install torch --index-url https://download.pytorch.org/whl/cpu
 torch
-
-# Portfolio optimization
 cvxpy
 PyPortfolioOpt
-
-# GARCH volatility modeling baseline
 arch
-
-# Explainability
 shap
-
-# Paper trading execution
 alpaca-py
-
-# Secrets / config
 python-dotenv
-
-# Notebooks
 jupyter
 ipykernel
-
-# Full pinned dependency tree (exact reproducibility): requirements-lock.txt

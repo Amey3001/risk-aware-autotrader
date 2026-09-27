@@ -1,9 +1,4 @@
 
-
-RE-RUNNING WILL NOT REPRODUCE THE NUMBERS IN THE DISSERTATION
-
-
-
 Notebook 01 downloads price data from Yahoo Finance up to whatever today's date is. Every extra trading day shifts the train/test split, which changes the trained model and everything computed after it. The results in the dissertation were computed from data running to 20 August 2026, so running the pipeline after that date will produce different figures. The outputs saved in each notebook are the ones the dissertation reports. 
 
 Re-running overwrites them with values based on a later data window. This is expected behaviour for a project evaluated on live market data, not an error.
